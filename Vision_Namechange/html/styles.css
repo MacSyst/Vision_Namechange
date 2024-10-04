@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Montserrat";
+    font-style: italic;
+    display: none;
+}
+
+.franklin {
+    position: absolute;
+    top: 570px;
+    left: 40%;
+    width: 250px;
+    transform: translate(-50%, -50%);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 420px;
+    width: 720px;
+    background: rgb(156,0,255);
+    background: radial-gradient(circle, rgba(157, 0, 255, 0.5) 0%, rgba(74, 0, 128, 0.5) 100%);
+    border-radius: 3px;
+}
+
+/* ------------------------------------------------------------ */
+
+.closeui {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: rgba(204, 17, 17, 0.5);
+    box-shadow: rgba(204, 17, 17, 0.5) 0px 0px 10px;
+    color: rgb(0, 0, 0);
+    width: 20px;
+    height: 20px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+.closeui:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
+
+/* ------------------------------------------------------------ */
+
+input {
+    background-color: rgba(27, 27, 27, 0.452);
+    color: rgb(255, 255, 255);
+    width: 300px;
+    margin: 5px;
+    padding: 20px;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    border:  rgb(141, 0, 197) 1px solid;
+    border-bottom: 2px solid rgb(150, 0, 0);
+    transition: all 0.8s ease;
+}
+
+input:focus {
+    color: rgb(255, 255, 255);
+    transform: scale(0.98);
+    border-bottom: 2px solid rgb(150, 0, 0);
+    transition: all 0.8s ease;
+}
+
+input:valid {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(38, 230, 0);
+    transition: all 0.8s ease;
+}
+
+input::placeholder {
+    color: #9e9e9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ------------------------------------------------------------ */
+
+
+.submit {
+    background: rgb(156,0,255);
+    background: linear-gradient(0deg, rgba(53, 0, 87, 0.5) 0%, rgba(123, 0, 206, 0.5) 100%);
+    color: rgb(255, 255, 255);
+    width: 250px;
+    padding: 10px;
+    margin: 5px;
+    border:  rgb(141, 0, 197) 1px solid;
+    outline: none;
+    border-radius: 1px;
+    transition: all 0.3s ease;
+    
+}
+
+.submit:active {
+    transform: scale(0.9);
+    transition: all 0.3s ease;
+}
+
+/* ------------------------------------------------------------ */
+
+
+#text {
+    position: absolute;
+    top: 95%;
+    color: rgb(158, 158, 158);
+    font-size: 12px;
+}
+
+#title {
+    position: absolute;
+    top: 5%;
+    color: rgba(158, 158, 158, 0.650);
+    font-size: 30px;
+}
