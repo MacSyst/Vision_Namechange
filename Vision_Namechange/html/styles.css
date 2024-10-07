@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    font-style: italic;    
+    overflow: hidden;
+    display: none;
+    height: 100vh;
+    background-color: #25b80000;
+}
+
+#background {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.franklin {
+    position: absolute;
+    top: 559px;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+}
+
+#title {
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.closeui {
+    position: absolute;
+    top: 29%;
+    left: 1399px;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(156, 0, 0, 0.671);
+    background-color: rgba(112, 0, 0, 0.671);
+    box-shadow: inset 0px 0px 10px 1px #b800005b;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.closeui:hover {
+    background-color: rgba(202, 0, 0, 0.473);
+    color: rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+
+.closeui:active {
+    background-color: rgba(156, 0, 0, 0.671);
+    color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 0px 20px 10px rgba(110, 0, 0, 0.56);
+    transition: 0.5s;
+}
+
+.submit {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid rgba(0, 156, 0, 0.671);
+    background-color: rgba(0, 112, 0, 0.671);
+    box-shadow: inset 0px 0px 10px 1px #25b8005b;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.473);
+    width: 400px;
+    height: 75px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+.submit:hover {
+    background-color: rgba(0, 156, 0, 0.473);
+    color: rgba(255, 255, 255, 0.473);
+    transition: 0.5s;
+}
+
+.submit:active {
+    background-color: rgba(0, 156, 0, 0.671);
+    color: rgba(255, 255, 255, 0.473);
+    box-shadow: 0px 0px 20px 10px rgba(18, 110, 0, 0.56);
+    transition: 0.5s;
+}
+
+input {
+    width: 300px;
+    height: 50px;
+    border: 1px solid rgba(0, 156, 0, 0.671);
+    background-color: rgba(0, 112, 0, 0.671);
+    box-shadow: inset 0px 0px 10px 1px #25b8005b;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.473);
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#text {
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+}
+
+input {
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: inset 0px 0px 10px 1px #ffffff5b;
+    border-radius: 2px;
+    color: rgba(92, 92, 92, 0.4);
+    width: 300px;
+    text-align: center;
+}
+
+input::placeholder {
+    color: rgba(165, 165, 165, 0.4);
+}
+
+#firstname, #lastname {
+    width: 450px;
+    height: 75px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: inset 0px 0px 10px 1px #ffffff5b;
+    border-radius: 2px;
+    color: rgba(255, 255, 255, 0.473);
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+#firstname {
+    position: absolute;
+    top: 44%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#lastname {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
